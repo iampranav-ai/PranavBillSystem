@@ -605,33 +605,6 @@ btn9=Button(Cal_F,padx=16,pady=1,bd=7,fg='black',font=('arial',16,'bold'),width=
 btnAdd=Button(Cal_F,padx=16,pady=1,bd=7,fg='black',font=('arial',16,'bold'),width=4,text='+',
                         bg='orange',command=lambda:btnClick('+')).grid(row=2,column=3)
 
-#Calculator Buttons
-
-btn4=Button(Cal_F,padx=16,pady=1,bd=7,fg='black',font=('arial',16,'bold'),width=4,text='4',
-                        bg='orange',command=lambda:btnClick(4)).grid(row=3,column=0)
-btn5=Button(Cal_F,padx=16,pady=1,bd=7,fg='black',font=('arial',16,'bold'),width=4,text='5',
-                        bg='orange',command=lambda:btnClick(5)).grid(row=3,column=1)
-btn6=Button(Cal_F,padx=16,pady=1,bd=7,fg='black',font=('arial',16,'bold'),width=4,text='6',
-                        bg='orange',command=lambda:btnClick(6)).grid(row=3,column=2)
-btnSub=Button(Cal_F,padx=16,pady=1,bd=7,fg='black',font=('arial',16,'bold'),width=4,text='-',
-                        bg='orange',command=lambda:btnClick('-')).grid(row=3,column=3)
-
-btn1=Button(Cal_F,padx=16,pady=1,bd=7,fg='black',font=('arial',16,'bold'),width=4,text='1',
-                        bg='orange',command=lambda:btnClick(1)).grid(row=4,column=0)
-btn2=Button(Cal_F,padx=16,pady=1,bd=7,fg='black',font=('arial',16,'bold'),width=4,text='2',
-                        bg='orange',command=lambda:btnClick(2)).grid(row=4,column=1)
-btn3=Button(Cal_F,padx=16,pady=1,bd=7,fg='black',font=('arial',16,'bold'),width=4,text='3',
-                        bg='orange',command=lambda:btnClick(3)).grid(row=4,column=2)
-btnMulti=Button(Cal_F,padx=16,pady=1,bd=7,fg='black',font=('arial',16,'bold'),width=4,text='*',
-                        bg='orange',command=lambda:btnClick('*')).grid(row=4,column=3)
-btn0=Button(Cal_F,padx=16,pady=1,bd=7,fg='black',font=('arial',16,'bold'),width=4,text='0',
-                        bg='orange',command=lambda:btnClick(0)).grid(row=5,column=0)
-btnClear=Button(Cal_F,padx=16,pady=1,bd=7,fg='black',font=('arial',16,'bold'),width=4,text='C',
-                        bg='orange',command=btnClear).grid(row=5,column=1)
-btnEqual=Button(Cal_F,padx=16,pady=1,bd=7,fg='black',font=('arial',16,'bold'),width=4,text='=',
-                        bg='orange',command=btnEquals).grid(row=5,column=2)
-btnDiv=Button(Cal_F,padx=16,pady=1,bd=7,fg='black',font=('arial',16,'bold'),width=4,text='/',
-                        bg='orange',command=lambda:btnClick('/')).grid(row=5,column=3)
 
 
 
